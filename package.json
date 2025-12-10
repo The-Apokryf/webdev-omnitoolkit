@@ -1,0 +1,35 @@
+{
+  "name": "webdev-omnitoolkit",
+  "version": "1.0.0",
+  "description": "tool",
+  "keywords": [
+    "hosting",
+    "web",
+    "frontend",
+    "backend"
+  ],
+  "homepage": "https://github.com/The-Apokryf/webdev-omnitoolkit#readme",
+  "bugs": {
+    "url": "https://github.com/The-Apokryf/webdev-omnitoolkit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Apokryf/webdev-omnitoolkit.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "sarverott",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "task"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^2.3.8",
+    "dockerode": "^4.0.9",
+    "husky": "^9.1.7",
+    "isomorphic-git": "^1.36.0",
+    "octokit": "^5.0.5",
+    "ollama": "^0.6.3",
+    "vite": "^7.2.7"
+  }
+}
