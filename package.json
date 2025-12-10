@@ -30,6 +30,7 @@
     "isomorphic-git": "^1.36.0",
     "octokit": "^5.0.5",
     "ollama": "^0.6.3",
+    "tools": "file:tools",
     "vite": "^7.2.7"
   }
 }
