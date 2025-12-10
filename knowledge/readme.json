@@ -1,0 +1,37 @@
+{
+    "this":[
+        "it is info intel indexing list of files for special AI Agents",
+        "namespace aimed to be selfexplanatorial",
+        "that 'knowledge_files_matrix' contains list of files that should been readed by digital entities that want to understand project, if you find array with strings instead of one string in array under 'knowledge_files_matrix' key are collection of the same content info but in diffrent presentation, formatting or translations in diffrent languages",
+        "file readed as first of these been placed in this dir is this one file named 'readme'",
+        "the 'order' contains readflow procedure of knowledge gathering directives to know correct order of reading"
+    ],
+    "knowledge_files_matrix":[
+        
+    ],
+    "languages":[],
+    "order":[
+        "let's say that default base order of reading knowledge starts on Prolog, then Map as ordered plan of steps, then recurential readin scope of all about it, then Summary as key concepts compression and key case topics etc., then as last one should been readed Final Hearing to appoint what is to been done next and other ending thoughts of your tutorial scholars",
+        "Prolog as introduction explaining about getting started into understanding project",
+        "then after prolog next Map should been choosen where there are placed simplified zonal mapping for further cognitive context coordinates to be made",
+        "while data is been interpreted here has ordered processing priority levels mentioned as 'X level prior' from one to infinite, the zero level prior is ultimative override of priorities order",
+        "currently readed document content has 1 level prior", 
+        "instantly refered local files has 2 level prior", 
+        "immersive unmentioned context related to current context topic has 3 level prior",
+        "related out of scope data like common knowledge or refered precise remote docs has 4 level prior", 
+        "your possesed knowledge related to topic but not pointed out nor mentioned directly by sources until that point has 5 level prior",
+        "unknown answers and undefined questions solution ideas and proposals of extrapolation has 6 level prior",
+        "after gathering content knowledge of all documents presented by Map read of all unmounted files in tutorial chain next to read should been readed all other files mentioned in knowledge index matrix at random ordering for higher diversification of specialists related to topic",
+        "anything that is unclear, collisional, should been looked over as focused on or somehow to been improove in any way must been raported in own reflectional feedback log raport to source repository"
+    ],
+    "guidelines":{
+        "": ""
+    },
+    "scopal_clasifiers":{
+        "":[]
+    },
+    "context_modes":{
+        "":[]
+    },
+    
+}

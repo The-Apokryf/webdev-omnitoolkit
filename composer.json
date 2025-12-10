@@ -1,0 +1,16 @@
+{
+    "name": "sarverott/webdev-omnitoolkit",
+    "description": "super extra ultra web developement tool collection",
+    "autoload": {
+        "psr-4": {
+            "Sarverott\\WebdevOmnitoolkit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sett Sarverott A.A.B.",
+            "email": "sarverott@gmail.com"
+        }
+    ],
+    "require": {}
+}

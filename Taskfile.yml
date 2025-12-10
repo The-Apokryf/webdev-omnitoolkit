@@ -6,6 +6,40 @@ vars:
   GREETING: Hello, World!
 
 tasks:
+
+  quality_assure:
+    cmds:
+      - uv run ruff check
+      - uv run ruff format
+      - npm exec check --write
+
+  autodocs:
+    cmds:
+      - npm ls | grep -v "$PWD"
+      
+
+  help:
+    cmds:
+      - gh repo view --web
+      - npm docs
+      - npm repo
+
+  before_commit:
+    cmds:
+      - git fetch
+      - git pull
+      - uv sync
+      - uv lock
+      - npm install
+      - npm audit fix -f
+      - uv
+
+  regenerate_git:
+    cmds:
+      - curl "https://gist.githubusercontent.com/Sarverott/a9933eea3dd0e4fc54e8ff275bd79dcf/raw/1480f29a978232284788a77162e08e73fb489fd6/selective_ignorance.sh" | bash -s git python,node,GitBook,GitHubPages,GitHubPages,Terraform,rust,composer,c,cmake,appengine
+      - gh repo view
+    silent: false
+
   default:
     cmds:
       - echo "{{.GREETING}}"
