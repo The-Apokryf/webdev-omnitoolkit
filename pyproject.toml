@@ -1,0 +1,17 @@
+[project]
+name = "webdev-omnitoolkit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tools",
+]
+
+[tool.uv.workspace]
+members = [
+    "tools",
+]
+
+[tool.uv.sources]
+tools = { workspace = true }
